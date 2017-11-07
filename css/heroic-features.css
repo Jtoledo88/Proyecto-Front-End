@@ -6,7 +6,7 @@
 
 body {
   padding-top: 54px;
-
+background: url(deep_space.jpg) center center no-repeat fixed;
   }
 
 @media (min-width: 992px) {
