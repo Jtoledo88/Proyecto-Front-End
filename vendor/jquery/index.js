@@ -32,12 +32,23 @@ $(document).ready(function () {
                    for(var j=0; j < data.results[i].characters.length; j++){
                     html += cast(data.results[i].characters[j]);
                 } 
-                html+= '</ul>' + '" data-toggle="modal" data-target="#exampleModalLong">Find Out More!</a>'    
+             html+= '</ul>' + '" data-toggle="modal" data-target="#exampleModalLong">Find Out More!</a>'    
              html +=  '</div>'
              html +=  '</div>'
              html +=   '</div>'
                 html += '</div>';
         }
+      html+= '<div class="col-lg-4 col-md-6 mb-4">'
+      html+=    '<div class="card">'
+      html+=        '<img class="card-img-top" src="vendor/coming_soon.jpg" alt="">'
+      html+=        '<div class="card-body">'
+      html+=            '<h4 class="card-title">Coming soon</h4>'
+      html+=                '<p class="card-text">The true power go be unlesh</p>'
+      html+=         '</div>'
+      html+=      '<div class="card-footer">'
+      html+=      '</div>'
+      html+=    '</div>'
+      html+= '</div>'
             console.log(html);
             $("#peliculas").html(html);
         },

@@ -6,7 +6,7 @@
 
 body {
   padding-top: 54px;
-background: url(deep_space.jpg) center center no-repeat fixed;
+background: url(tropper.jpg) center center no-repeat fixed;
   }
 
 @media (min-width: 992px) {
@@ -14,7 +14,7 @@ background: url(deep_space.jpg) center center no-repeat fixed;
     padding-top: 56px;
   }
 }
-
+body .navbar .collapse .nav-link:hover { background:rgb(161, 10, 10); color:rgb(255, 255, 255);  }
 .card {
   height: 100%;
 }
@@ -23,4 +23,17 @@ background: url(deep_space.jpg) center center no-repeat fixed;
 }
 .card-text{
   font-family: 'Cinzel Decorative', cursive;
+}
+.jumbotron {
+  background-image: url(2.jpg) ;
+  background-size: 100%;
+  color:#fff;
+}
+.slider{
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+.card:hover {
+  background:rgb(161, 10, 10) ;
+  color: rgb(255, 255, 255);
 }
